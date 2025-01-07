@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-COPY req.txt /app/
+COPY ../req.txt /app/
 RUN pip install --upgrade pip && \
     pip install -r req.txt
 
